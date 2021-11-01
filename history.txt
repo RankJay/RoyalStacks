@@ -1,0 +1,5 @@
+#V2
+(contract-call? .royalty-nft mint tx-sender)
+(contract-call? .royalty-nft transfer u1 tx-sender 'ST1HTBVD3JG9C05J7HBJTHGR0GGW7KXW28M5JS8QE)
+(contract-call? .royalty-nft transfer u1 tx-sender 'ST1J4G6RR643BCG8G8SR6M2D9Z9KXT2NJDRK3FBTK)
+(contract-call? .royalty-nft get-owner u1)

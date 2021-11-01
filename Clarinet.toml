@@ -1,0 +1,18 @@
+[project]
+name = "royalty-nft"
+requirements = []
+[contracts.royalty-nft]
+path = "contracts/royalty-nft.clar"
+depends_on = ["sip009-nft-trait"]
+
+[contracts.sip009-nft-trait]
+path = "contracts/sip009-nft-trait.clar"
+depends_on = []
+
+[contracts.royalty-split]
+path = "contracts/royalty-split.clar"
+depends_on = []
+
+[contracts.nft-payout]
+path = "contracts/nft-payout.clar"
+depends_on = []
